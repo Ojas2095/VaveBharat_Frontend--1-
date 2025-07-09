@@ -21,8 +21,8 @@ A scalable and modular frontend template for the **“Vave Bharat”** project �
 ### 1. Clone the Template
 
 ```bash
-git clone https://github.com/Ojas2095/vave-bharat-frontend-template.git
-cd vave-bharat-frontend-template
+git clone https://github.com/Ojas2095/VaveBharat_Frontend--1-
+cd VaveBharat_Frontend--1-
 ```
 
 ### 2. Install Dependencies
