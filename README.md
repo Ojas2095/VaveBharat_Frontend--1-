@@ -6,7 +6,7 @@ A scalable and modular frontend template for the **“Vave Bharat”** project �
 
 ---
 
-## 📦 Tech Stack
+## 🧰 Tech Stack
 
 - ⚛️ React (via Vite)
 - 💨 Tailwind CSS
@@ -23,30 +23,22 @@ A scalable and modular frontend template for the **“Vave Bharat”** project �
 ```bash
 git clone https://github.com/Ojas2095/vave-bharat-frontend-template.git
 cd vave-bharat-frontend-template
-```
 
-### 2. Install Dependencies
-
-```bash
+2. Install Dependencies
+bash
+Copy code
 npm install
-```
-
-### 3. Start Development Server
-
-```bash
+3. Start Development Server
+bash
+Copy code
 npm run dev
-```
-
-### 4. Build for Production
-
-```bash
+4. Build for Production
+bash
+Copy code
 npm run build
-```
-
----
-
-## 📁 Folder Structure
-
+📁 Folder Structure
+pgsql
+Copy code
 ├── public/
 │   └── index.html
 ├── src/
@@ -81,59 +73,34 @@ npm run build
 ├── postcss.config.js
 ├── package.json
 └── README.md
+👥 Intern Task Assignments
+Intern	Pages	Components	Data Files	Description
+Ojaswee	WeixinVsBioPay.jsx, Home.jsx	ResearchCard.jsx	weixinData.js, upiData.js	🔍 Analyze and visually present a comparative report between Weixin Pay and BioPay Bharat, focusing on architecture, biometrics, and offline readiness.
+Paridhi	BiometricFeasibility.jsx	ChartCard.jsx	biometricTech.js	📊 Research biometric technology (PalmID, VeinID, IR sensors) and visualize feasibility in low-resource Indian environments.
+Harshita	RegulatoryChecklist.jsx, SummaryOverview.jsx	PDFViewer.jsx	regulationChecklist.js	📑 Break down RBI, Aadhaar, and UPI compliance rules; summarize findings in a PDF-style layout for report submission.
 
----
-
-## 👥 Intern Task Assignments
-
-| Intern       | Responsibilities                                                                 |
-|--------------|-----------------------------------------------------------------------------------|
-| **Ojaswee** | Pages: `WeixinVsBioPay.jsx`, `Home.jsx`                                           |
-|              | Component: `ResearchCard.jsx`                                                    |
-|              | Data: `weixinData.js`, `upiData.js`                                               |
-|              | 🔍 **Goal**: Analyze and visually present a comparative report between Weixin Pay and BioPay Bharat, focusing on architecture, biometrics, and offline readiness. |
-
-| **Paridhi** | Page: `BiometricFeasibility.jsx`                                                  |
-|              | Component: `ChartCard.jsx`                                                       |
-|              | Data: `biometricTech.js`                                                         |
-|              | 📊 **Goal**: Research biometric technology (PalmID, VeinID, IR sensors) and visualize feasibility in low-resource Indian environments. |
-
-| **Harshita** | Pages: `RegulatoryChecklist.jsx`, `SummaryOverview.jsx`                           |
-|              | Component: `PDFViewer.jsx`                                                       |
-|              | Data: `regulationChecklist.js`                                                   |
-|              | 📑 **Goal**: Break down RBI, Aadhaar, and UPI compliance rules; summarize findings in a PDF-style layout for report submission. |
-
----
-
-
-## 🧠 Project Context
-
+🧠 Project Context
 This frontend is part of a broader R&D project titled:
 
-**“Vave Bharat: A Biometric-First, Offline-Ready Digital Payment Framework for Inclusive Digital Transactions in India”**  
-(Startup: **Sentienta QualityAI**)
+“Vave Bharat: A Biometric-First, Offline-Ready Digital Payment Framework for Inclusive Digital Transactions in India”
+(Startup: Sentienta QualityAI)
 
-The final outcome is a **research paper with working mockups, APIs, and architecture**.
+The final outcome is a research paper with working mockups, APIs, and architecture.
 
----
+✅ Guidelines
+Write clean, reusable, and accessible code.
 
-## ✅ Guidelines
+Follow Tailwind utility-first styling.
 
-- Write **clean, reusable, and accessible** code.
-- Follow **Tailwind utility-first** styling.
-- Keep components modular and isolated.
-- Use **React Router** for navigation.
-- Commit with clear messages (`feat:`, `fix:`, `chore:`).
+Keep components modular and isolated.
 
----
+Use React Router for navigation.
 
-## 🙌 Contribution
+Commit with clear messages (feat:, fix:, chore:).
 
+🙌 Contribution
 Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
 
----
-
-## 📄 License
-
-All rights reserved by **Sentienta QualityAI**.  
+📄 License
+All rights reserved by Sentienta QualityAI.
 This project is part of an internal research initiative. Do not redistribute without permission.
