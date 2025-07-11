@@ -18,6 +18,12 @@ const Home = () => {
       >
         View Comparative Study
       </button>
+      <button
+        onClick={() => navigate("/reports/biometric-feasibility")}
+        className="mt-4 px-6 py-3 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-all"
+      >
+        View Biometric Feasibility Report
+      </button>
     </div>
   );
 };
