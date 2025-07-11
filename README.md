@@ -29,6 +29,7 @@ cd VaveBharat_Frontend--1-
 
 ```bash
 npm install
+npm install recharts
 ```
 
 ### 3. Start Development Server
@@ -48,8 +49,6 @@ npm run build
 ## 📁 Folder Structure
 
 ```
-├── public/
-│   └── index.html
 ├── src/
 │   ├── assets/
 │   │   └── logos/, charts/, pdfs/
@@ -78,6 +77,7 @@ npm run build
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
+|   |__ index.html
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── package.json
