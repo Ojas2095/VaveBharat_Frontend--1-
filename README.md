@@ -60,6 +60,7 @@ npm run build
 │   │   ├── weixinData.js
 │   │   ├── upiData.js
 │   │   ├── biometricTech.js
+│   │   ├── technicalReportData.js
 │   │   └── regulationChecklist.js
 │   ├── layouts/
 │   │   └── ResearchLayout.jsx
