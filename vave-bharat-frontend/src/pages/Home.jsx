@@ -12,18 +12,34 @@ const Home = () => {
       <p className="text-lg text-gray-700 max-w-xl mb-6">
         A biometric-first, offline-ready digital payment framework crafted for inclusive digital transactions across India.
       </p>
-      <button
-        onClick={() => navigate("/reports/weixin-vs-biopay")}
-        className="mt-4 px-6 py-3 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-all"
-      >
-        View Comparative Study
-      </button>
-      <button
-        onClick={() => navigate("/reports/biometric-feasibility")}
-        className="mt-4 px-6 py-3 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-all"
-      >
-        View Biometric Feasibility Report
-      </button>
+
+      {/* Two-column layout for buttons */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-xl">
+        <button
+          onClick={() => navigate("/reports/weixin-vs-biopay")}
+          className="px-6 py-3 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-all w-full"
+        >
+          View Comparative Study
+        </button>
+        <button
+          onClick={() => navigate("/reports/biometric-feasibility")}
+          className="px-6 py-3 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-all w-full"
+        >
+          View Biometric Feasibility Report
+        </button>
+        <button
+          onClick={() => navigate("/reports/regulatory-checklist")}
+          className="px-6 py-3 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-all w-full"
+        >
+          View Regulatory Checklist Report
+        </button>
+        <button
+          onClick={() => navigate("/reports/summary")}
+          className="px-6 py-3 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-all w-full"
+        >
+          View Summary
+        </button>
+      </div>
     </div>
   );
 };
